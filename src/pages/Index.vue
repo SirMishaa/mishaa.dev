@@ -49,7 +49,7 @@
             <div class="flex justify-center sm:justify-center md:justify-between lg:justify-between">
               <div class="w-2/3 text-justify my-12 items-center text-xl">
                 <p class="text-gray-300">
-                  My name is Mishaa and I'm 18 years old. I am a Full-Stack Software Developer. I've been
+                  My name is Mishaa and I'm 19 years old. I am a Full-Stack Software Developer. I've been
                   studying the web world for a few years now and I quickly got a passion for web
                   development, so I decided to make it my job.
                 </p>
