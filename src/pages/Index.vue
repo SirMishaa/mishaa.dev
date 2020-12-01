@@ -9,25 +9,9 @@
             </a>
             <ul class="flex ml-auto">
               <li>
-                <a class="font-medium text-gray-500 transition duration-150 ease-in-out hover:text-gray-900 focus:outline-none focus:text-gray-900 mx-5"
-                   href="#">
-                  Home
-                </a></li>
-              <li>
-              <li>
-                <a class="font-medium text-gray-500 transition duration-150 ease-in-out hover:text-gray-900 focus:outline-none focus:text-gray-900 mx-5"
-                   href="#">
-                  About
-                </a></li>
-              <li>
-                <a class="font-medium text-gray-500 transition duration-150 ease-in-out hover:text-gray-900 focus:outline-none focus:text-gray-900 mx-5"
-                   href="#">
-                  Code
-                </a></li>
-              <li>
-                <a class="font-medium text-gray-500 transition duration-150 ease-in-out hover:text-gray-900 focus:outline-none focus:text-gray-900 mx-5"
-                   href="#">
-                  Blog
+                <a class="font-bold text-gray-900 transition duration-150 ease-in-out hover:text-gray-900 focus:outline-none focus:text-gray-900 mx-5"
+                   href="https://github.com/SirMishaa" target="_blank">
+                  Github
                 </a></li>
             </ul>
           </nav>
@@ -39,17 +23,17 @@
                 <h2 class="text-sm font-bold tracking-wide text-gray-500 uppercase sm:text-base lg:text-sm xl:text-base my-6">
                   Full-Stack Software Developer</h2>
                 <p class="max-w-md mx-auto font-semibold text-base text-gray-600 sm:text-lg md:mt-6 md:text-xl md:max-w-3xl font-mediubo">
-                  Passionate student of complex systems engineering and web technologies. Complete
+                  Passionate developer of complex systems engineering and web technologies. Complete
                   business
                   application developer with Typescript, Vue and GraphQL.
                 </p>
                 <div class="max-w-xl mx-auto mt-10 sm:flex sm:justify-center md:mt-10">
-                  <div class="rounded-md shadow mx-2"><a
+                  <div class="rounded-md shadow mx-2"><g-link
                       class="flex items-center justify-center w-full px-8 py-2 text-base font-medium leading-6 text-white transition duration-150 ease-in-out bg-gray-900 font-bold border border-transparent rounded-md hover:bg-red-600 focus:outline-none focus:shadow-outline-blue md:py-4 md:text-lg md:px-10"
-                      href="#">Download my resume</a></div>
+                      href="/Resume.pdf" target="_blank">Download my resume</g-link></div>
                   <div class="rounded-md shadow mx-2"><a
-                      class="flex items-center justify-center w-full px-8 py-2 text-base font-medium leading-6 text-white transition duration-150 ease-in-out bg-red-600 font-bold border border-transparent rounded-md hover:bg-red-600 focus:outline-none focus:shadow-outline-blue md:py-4 md:text-lg md:px-10"
-                      href="#">Send me a message</a></div>
+                      class="flex items-center hover:bg-white hover:text-red-600 font-bold justify-center w-full px-8 py-2 text-base font-medium leading-6 text-white transition duration-150 ease-in-out bg-red-600 font-bold border border-transparent rounded-md focus:outline-none focus:shadow-outline-blue md:py-4 md:text-lg md:px-10"
+                      href="mailto:mishapro@mm.st?subject=I%20saw%20your%20website!&body=Hello ">Send me a message</a></div>
                 </div>
               </div>
             </div>
@@ -75,8 +59,12 @@
                   to propose solutions to modernize companies, it's a very big project on which I'm
                   learning a lot.
                 </p>
+                <p class="text-gray-300 mt-10">
+                  I am actively <strong>looking to move to Canada</strong> and <strong>work in or near the city of Montreal</strong>. Recruiters, if your offer matches, please do not hesitate to contact me.
+                  I will be thrilled and excited about working in Canada, it's kind of my childhood dream.
+                </p>
               </div>
-              <g-image alt="Illustration" class="w-1/4 hidden md:block lg:block mx-4"
+              <g-image alt="Illustration" style="width: 30%" class="hidden md:block lg:block mx-4"
                        src="~/assets/img/undraw_Taken_if77.svg"></g-image>
             </div>
           </div>
