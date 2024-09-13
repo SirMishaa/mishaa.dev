@@ -1,16 +1,31 @@
 # The URL the site will be built for
-base_url = "https://local.mishaa.dev"
+base_url = "https://mishaa.dev"
+theme = "duckquill"
+title = "Mihaa's Blog"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
 
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = true
+generate_sitemap = true
 
 [markdown]
 # Whether to do syntax highlighting
 # Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
+highlight_theme = "ayu-dark"
 highlight_code = true
+smart_punctuation = true
+
 
 [extra]
 # Put all your custom variables here
+
+[extra.footer]
+show_copyright = true
+show_powered_by = false
+show_source = true
+
+[extra.comments]
+host = "mishaa.dev"
+user = "mishaa"
